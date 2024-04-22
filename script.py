@@ -1,6 +1,7 @@
 import scipy.special
+import numpy as np
 
-
-cube_root = scipy.special.cbrt(27)
-print('The cube root of 27 is {cube_root} because {cube_root} * {cube_root} * {cube_root} is 27'
+r=int(input("Multiple de Trois ?"))
+cube_root = scipy.special.cbrt(r)
+print(F'The cube root of {r} is {cube_root} because {cube_root} * {cube_root} * {cube_root} is {r}'
       .format(**{'cube_root': cube_root}))
