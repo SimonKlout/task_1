@@ -1,5 +1,4 @@
 import scipy.special
-import numpy as np
 
 r=int(input("Multiple de Trois ?"))
 cube_root = scipy.special.cbrt(r)
